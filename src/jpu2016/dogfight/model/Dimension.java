@@ -1,6 +1,6 @@
 package jpu2016.dogfight.model;
 
-public class Dimension
+public class Dimension 
 {
   private int width;
   private int height;
@@ -30,5 +30,5 @@ public Dimension(int width, int height) {
 	this.height = height;
 }
 
-
+// variables et methodes vides crée
 }

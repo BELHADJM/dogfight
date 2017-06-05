@@ -5,7 +5,7 @@ import com.sun.javafx.scene.traversal.Direction;
 public class Cloud extends Mobile
 {
 	private static int SPEED = 1;
-	private static int WIDTH = 300;
+	private static int WIDTH = 300; // variable de classes
 	private static int HEIGHT = 150;
 	private static String IMAGE = "cloud";
 	
@@ -14,3 +14,4 @@ public class Cloud extends Mobile
 		
 	}
 }
+

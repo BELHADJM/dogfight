@@ -6,7 +6,7 @@ public class Missile extends Mobile
 	private static int WIDTH = 30;
 	private static int HEIGHT = 100;
 	private static int MAX_DISTANCE_TRAVELED = 1400;
-	private static String IMAGE = "missile";
+	private static String IMAGE = "missile";  //variables de classes
 	private int distanceTraveled = 0;
 	public Missile(int distanceTraveled){
 	}
@@ -39,7 +39,7 @@ public class Missile extends Mobile
 		
 	}
 	
-	
+	//methodes vides crée
 	
 	
 	

@@ -114,5 +114,5 @@ public class DogfightModel implements IMobile
 		return false;
 	}
 
-	
+	//implementation de l'interface
 }
