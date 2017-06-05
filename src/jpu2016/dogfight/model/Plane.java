@@ -18,8 +18,16 @@ public Plane(int player, Direction direction, Position position, String image ) 
 }
 
 
+ public boolean isPlayer(int player)
+ {
+	return false;
+	 
+ }
 
-
+ public boolean hit()
+ {
+	 return false;
+ }
 
 }
 

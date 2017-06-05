@@ -8,6 +8,7 @@ public class Missile extends Mobile
 	private static int MAX_DISTANCE_TRAVELED = 1400;
 	private static String IMAGE = "missile";  //variables de classes
 	private int distanceTraveled = 0;
+	
 	public Missile(int distanceTraveled){
 	}
 	
@@ -18,14 +19,14 @@ public class Missile extends Mobile
 		
 	}
 	
-	public static void getWidthWithADirection(Direction direction)
+	public static int getWidthWithADirection(Direction direction)
 	{
-		
+		return WIDTH;
 	}
 	
-	public static void getHeightWithADirection(Direction direction)
+	public static int getHeightWithADirection(Direction direction)
 	{
-		
+		return HEIGHT;
 	}
 	
 	public void move()

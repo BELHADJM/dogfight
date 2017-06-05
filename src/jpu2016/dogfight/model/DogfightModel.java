@@ -1,118 +1,56 @@
 package jpu2016.dogfight.model;
 
-import java.util.*;
+import java.util.*; // pour l'observer
 
-public class DogfightModel implements IMobile
+public class DogfightModel implements IDogfightModel
 {
 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	public DogfightModel()
+	{
+		
+	}
 	@Override
-	public void getDirection() {
+	public void getArea() {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public void SetDirection() {
+	public void buildArea(Dimension dimension) {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public void getPosition() {
+	public void addMobile(IMobile Mobile) {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public void getDimension() {
+	public void removeMobile(IMobile Mobile) {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public void getWidth() {
+	public void getMobiles() {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public void getHeight() {
+	public void getMobileByPlayer(int player) {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public void getSpeed() {
+	public void setMobilesHavesMover() {
 		// TODO Auto-generated method stub
 		
 	}
-
-	@Override
-	public void getImage() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void move() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void placeInArea() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public boolean isplayer() {
-		// TODO Auto-generated method stub
-		return false;
-	}
-
-	@Override
-	public void setDogfightModel() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public boolean hit() {
-		// TODO Auto-generated method stub
-		return false;
-	}
-
-	@Override
-	public boolean isWeapon() {
-		// TODO Auto-generated method stub
-		return false;
-	}
+	
 
 	//implementation de l'interface
 }
