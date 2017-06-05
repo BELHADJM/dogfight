@@ -2,6 +2,6 @@ package jpu2016.dogfight.model;
 
 public class Mobile  {
 	
-	int speed;
+	private int speed;
 
 }
