@@ -24,7 +24,7 @@ public void setHeight(int height) {
 	
 }
 
-public Dimension(int width, int height) {
+public Dimension(int width, int height) { //constructeur
 	super();
 	this.width = width;
 	this.height = height;

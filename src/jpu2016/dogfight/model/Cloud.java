@@ -9,7 +9,7 @@ public class Cloud extends Mobile
 	private static int HEIGHT = 150;
 	private static String IMAGE = "cloud";
 	
-	public Cloud(Direction direction, Dimension dimension)
+	public Cloud(Direction direction, Dimension dimension) // constructeur
 	{
 		
 	}

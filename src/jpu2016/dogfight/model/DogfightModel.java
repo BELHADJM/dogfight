@@ -2,10 +2,10 @@ package jpu2016.dogfight.model;
 
 import java.util.*; // pour l'observer
 
-public class DogfightModel implements IDogfightModel
+public class DogfightModel implements IDogfightModel 
 {
 
-	public DogfightModel()
+	public DogfightModel()// constructeur
 	{
 		
 	}

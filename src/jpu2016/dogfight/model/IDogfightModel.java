@@ -1,6 +1,6 @@
 package jpu2016.dogfight.model;
 
-public interface IDogfightModel {
+public interface IDogfightModel { //interface pour dogfightmodel
 
 	public void getArea();
 	
