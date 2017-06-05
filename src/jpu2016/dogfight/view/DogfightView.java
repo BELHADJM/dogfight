@@ -1,18 +1,19 @@
 package jpu2016.dogfight.view;
 
-import java.io.IOException;
-
 import javax.swing.JOptionPane;
+
+import jpu2016.dogfight.controler.IOrderPerformer;
+import jpu2016.dogfight.model.IDogfightModel;
 
 public class DogfightView implements IviewSystem, Runnable {
 
 	
 	
-public DogfightView(final IOrderPerfomer orderPerformer, final IDogfightModel dogfightModel,final Observable observable) throws IOException {
+public DogfightView(final IOrderPerformer orderPerformer, final IDogfightModel dogfightModel,final Observable observable) 
+{
    
     }
 
-	@Override
 	public void run() {	
 	}
 	
