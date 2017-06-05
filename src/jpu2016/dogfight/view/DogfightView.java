@@ -1,11 +1,20 @@
 package jpu2016.dogfight.view;
 
-public class DogfightView implements IviewSystem {
+import javax.swing.JOptionPane;
 
+public class DogfightView implements IviewSystem, Runnable {
+
+	
+	
 	@Override
-	public String displayMessage(String message) {
-		return null;
+	public void run() {	
 	}
+	
+	@Override
+	 public final void displayMessage(final String message) {
+       JOptionPane.showMessageDialog(null, message);
+   }
+
 
 	@Override
 	public void closeAll() {		
