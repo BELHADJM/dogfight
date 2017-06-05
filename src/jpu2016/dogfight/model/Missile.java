@@ -9,7 +9,7 @@ public class Missile extends Mobile
 	private static String IMAGE = "missile";  //variables de classes
 	private int distanceTraveled = 0;
 	
-	public Missile(int distanceTraveled){
+	public Missile(int distanceTraveled){ // constructeur
 	}
 	
 		

@@ -4,7 +4,7 @@ import java.awt.Color;  //importation de la bibliotheque color
 
 public class Sky implements IArea {
 
-	public void Sky(Dimension dimension)
+	public void Sky(Dimension dimension) //constructeur de sky
 	{
 		
 	}

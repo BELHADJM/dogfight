@@ -2,7 +2,7 @@ package jpu2016.dogfight.model;
 
 public interface IMobile  
 {
-	//precisions des methodes pour l'interfaces
+	//precisions des methodes pour l'interface Imobile
   public  void getDirection();
   
   public  void SetDirection();

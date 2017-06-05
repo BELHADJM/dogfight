@@ -11,7 +11,7 @@ public class Plane extends Mobile
  private int player;
  
  
-public Plane(int player, Direction direction, Position position, String image ) {
+public Plane(int player, Direction direction, Position position, String image ) { //constructeur
 	super();
 	this.player = player;
 	

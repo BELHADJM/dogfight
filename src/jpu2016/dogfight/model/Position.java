@@ -11,7 +11,7 @@ public class Position
   
   
   
-  public double getX() {
+  public double getX() {  
 	return x;
 }
 public void setX(double x) {
@@ -41,7 +41,7 @@ protected void setMaxY(double maxY) {
 	
 }
 
- public Position(double x, double y, double maxX, double maxY) {
+ public Position(double x, double y, double maxX, double maxY) { //constructeur position
 	super();
 	this.x = x;
 	this.y = y;

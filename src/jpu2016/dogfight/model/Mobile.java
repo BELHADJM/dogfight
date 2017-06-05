@@ -58,7 +58,7 @@ public class Mobile implements IMobile {
 		// TODO Auto-generated method stub
 		
 	}
-	
+	//ajout des directions
 	private void moveUp()
 	{
 		
