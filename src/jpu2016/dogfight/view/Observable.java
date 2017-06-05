@@ -1,5 +1,5 @@
 package jpu2016.dogfight.view;
 
-public class blabla {
+public class Observable {
 
 }
