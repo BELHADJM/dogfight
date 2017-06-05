@@ -21,7 +21,11 @@ public EventPerformer(IOrderPerformer orderPerformer) {
                 break;
             case KeyEvent.VK_LEFT:
                 break;
-            default:
+            case KeyEvent.VK_UP:
+                break;
+            case KeyEvent.VK_DOWN:
+            	break;
+            case KeyEvent.VK_SPACE:
                 break;
         }
         return userOrder;
