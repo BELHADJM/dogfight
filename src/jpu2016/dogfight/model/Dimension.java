@@ -19,7 +19,7 @@ public void setHeight(int height) {
 	this.height = height;
 }
 
-public void Dimension(int width , int height)
+ void Dimension(int width , int height)
 {
 	
 }

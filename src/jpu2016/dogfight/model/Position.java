@@ -36,12 +36,12 @@ protected void setMaxY(double maxY) {
 	this.maxY = maxY;
 }
 
-public void Position(double x ,double y ,double maxX,double  maxY)
+ public Position(Position position)
 {
 	
 }
 
-public Position(double x, double y, double maxX, double maxY) {
+ public Position(double x, double y, double maxX, double maxY) {
 	super();
 	this.x = x;
 	this.y = y;
